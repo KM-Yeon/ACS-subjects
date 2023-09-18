@@ -23,7 +23,7 @@ print(my_tuple[2])
 
 # 2
 my_tuple = (10, 20, 30, 40, 50, 60, 70)
-print(my_tuple[0:4])
+print(my_tuple[:4])
 
 # 3
 my_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
