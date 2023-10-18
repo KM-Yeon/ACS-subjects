@@ -7,9 +7,10 @@ from ui_231017_calculator import Ui_MainWindow
 
 class CalculatorApp(QMainWindow):
     def __init__(self):
-        super().__init__()
+        super(CalculatorApp, self).__init__() # 내가 메인창입니다..! 하고 알려주는 코드
         self.ui = Ui_MainWindow()
-        self.ui.setupUi(self)
+        self.ui.setupUi(self) # 현재 MainWindow의 UI를 지정할 때 쓰는 메서드
+        # self.show() # 있어도 가능, 없어도 가능
         self.init_ui()
 
 
