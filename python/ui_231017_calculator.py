@@ -1,0 +1,146 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'calculator.ui'
+##
+## Created by: Qt User Interface Compiler version 6.6.0
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QLineEdit, QMainWindow, QMenuBar,
+    QPushButton, QSizePolicy, QStatusBar, QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(800, 600)
+        MainWindow.setLayoutDirection(Qt.LeftToRight)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.widget = QWidget(self.centralwidget)
+        self.widget.setObjectName(u"widget")
+        self.widget.setGeometry(QRect(80, 60, 631, 461))
+        self.widget.setStyleSheet(u"background-color: rgb(207, 210, 255);\n"
+"border-color: rgb(170, 170, 255);")
+        self.btn1 = QPushButton(self.widget)
+        self.btn1.setObjectName(u"btn1")
+        self.btn1.setGeometry(QRect(80, 220, 75, 51))
+        self.btn1.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn2 = QPushButton(self.widget)
+        self.btn2.setObjectName(u"btn2")
+        self.btn2.setGeometry(QRect(180, 220, 75, 51))
+        self.btn2.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn3 = QPushButton(self.widget)
+        self.btn3.setObjectName(u"btn3")
+        self.btn3.setGeometry(QRect(280, 220, 75, 51))
+        self.btn3.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn4 = QPushButton(self.widget)
+        self.btn4.setObjectName(u"btn4")
+        self.btn4.setGeometry(QRect(80, 290, 75, 51))
+        self.btn4.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn5 = QPushButton(self.widget)
+        self.btn5.setObjectName(u"btn5")
+        self.btn5.setGeometry(QRect(180, 290, 75, 51))
+        self.btn5.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn6 = QPushButton(self.widget)
+        self.btn6.setObjectName(u"btn6")
+        self.btn6.setGeometry(QRect(280, 290, 75, 51))
+        self.btn6.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn7 = QPushButton(self.widget)
+        self.btn7.setObjectName(u"btn7")
+        self.btn7.setGeometry(QRect(80, 360, 75, 51))
+        self.btn7.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn8 = QPushButton(self.widget)
+        self.btn8.setObjectName(u"btn8")
+        self.btn8.setGeometry(QRect(180, 360, 75, 51))
+        self.btn8.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn9 = QPushButton(self.widget)
+        self.btn9.setObjectName(u"btn9")
+        self.btn9.setGeometry(QRect(280, 360, 75, 51))
+        self.btn9.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.cancel = QPushButton(self.widget)
+        self.cancel.setObjectName(u"cancel")
+        self.cancel.setGeometry(QRect(340, 120, 61, 51))
+        self.cancel.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.a_cancel = QPushButton(self.widget)
+        self.a_cancel.setObjectName(u"a_cancel")
+        self.a_cancel.setGeometry(QRect(420, 120, 151, 51))
+        self.a_cancel.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn_add = QPushButton(self.widget)
+        self.btn_add.setObjectName(u"btn_add")
+        self.btn_add.setGeometry(QRect(390, 220, 81, 51))
+        self.btn_add.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn_sub = QPushButton(self.widget)
+        self.btn_sub.setObjectName(u"btn_sub")
+        self.btn_sub.setGeometry(QRect(490, 220, 81, 51))
+        self.btn_sub.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn_mul = QPushButton(self.widget)
+        self.btn_mul.setObjectName(u"btn_mul")
+        self.btn_mul.setGeometry(QRect(390, 290, 81, 51))
+        self.btn_mul.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn_div = QPushButton(self.widget)
+        self.btn_div.setObjectName(u"btn_div")
+        self.btn_div.setGeometry(QRect(490, 290, 81, 51))
+        self.btn_div.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn_point = QPushButton(self.widget)
+        self.btn_point.setObjectName(u"btn_point")
+        self.btn_point.setGeometry(QRect(390, 360, 81, 51))
+        self.btn_point.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn_ent = QPushButton(self.widget)
+        self.btn_ent.setObjectName(u"btn_ent")
+        self.btn_ent.setGeometry(QRect(490, 360, 81, 51))
+        self.btn_ent.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.btn0 = QPushButton(self.widget)
+        self.btn0.setObjectName(u"btn0")
+        self.btn0.setGeometry(QRect(80, 150, 75, 51))
+        self.btn0.setStyleSheet(u"background-color: rgb(234, 234, 234);")
+        self.ledit = QLineEdit(self.widget)
+        self.ledit.setObjectName(u"ledit")
+        self.ledit.setGeometry(QRect(80, 20, 491, 71))
+        self.ledit.setStyleSheet(u"background-color: rgb(235, 235, 235);")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 800, 22))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        self.a_cancel.clicked.connect(self.ledit.clear)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.btn1.setText(QCoreApplication.translate("MainWindow", u"1", None))
+        self.btn2.setText(QCoreApplication.translate("MainWindow", u"2", None))
+        self.btn3.setText(QCoreApplication.translate("MainWindow", u"3", None))
+        self.btn4.setText(QCoreApplication.translate("MainWindow", u"4", None))
+        self.btn5.setText(QCoreApplication.translate("MainWindow", u"5", None))
+        self.btn6.setText(QCoreApplication.translate("MainWindow", u"6", None))
+        self.btn7.setText(QCoreApplication.translate("MainWindow", u"7", None))
+        self.btn8.setText(QCoreApplication.translate("MainWindow", u"8", None))
+        self.btn9.setText(QCoreApplication.translate("MainWindow", u"9", None))
+        self.cancel.setText(QCoreApplication.translate("MainWindow", u"C", None))
+        self.a_cancel.setText(QCoreApplication.translate("MainWindow", u"CE", None))
+        self.btn_add.setText(QCoreApplication.translate("MainWindow", u"+", None))
+        self.btn_sub.setText(QCoreApplication.translate("MainWindow", u"-", None))
+        self.btn_mul.setText(QCoreApplication.translate("MainWindow", u"X", None))
+        self.btn_div.setText(QCoreApplication.translate("MainWindow", u"/", None))
+        self.btn_point.setText(QCoreApplication.translate("MainWindow", u".", None))
+        self.btn_ent.setText(QCoreApplication.translate("MainWindow", u"=", None))
+        self.btn0.setText(QCoreApplication.translate("MainWindow", u"0", None))
+    # retranslateUi
+
